@@ -1,0 +1,94 @@
+Ya que los requerimientos de sistemas de software se clasifican en funcionales y no funcionales, se deben tener en cuenta las siguientes técnicas para la identificación correcta.
+
+ Identificación de Requerimientos funcionales
+Los requerimientos funcionales son declaraciones de los servicios que proveerá el sistema, de la manera en que éste reaccionará a entradas particulares. En algunos casos, los requerimientos funcionales de los sistemas también declaran explícitamente lo que el sistema no debe hacer.
+
+Muchos de los problemas de la ingeniería de software provienen de la imprecisión en la especificación de requerimientos. Para un desarrollador de sistemas es natural dar interpretaciones de un requerimiento ambiguo con el fin de simplificar su implementación. Sin embargo, a menudo no es lo que el cliente desea. Se tienen que estipular nuevos requerimientos y se deben hacer cambios al sistema, retrasando la entrega de éste e incrementando el costo.
+
+En principio, la especificación de requerimientos funcionales de un sistema debe estar completa y ser consistente. La compleción significa que todos los servicios solicitados por el usuario están definidos. La consistencia significa que los requerimientos no tienen definiciones contradictorias.
+
+En la práctica, para sistemas grandes y complejos, es imposible cumplir los requerimientos de consistencia y compleción. La razón de esto se debe parcialmente a la complejidad inherente del sistema y parcialmente a que los diferentes puntos de vista tienen necesidades inconsistentes. Estas inconsistencias son obvias cuando los requerimientos se especifican por primera vez. Los problemas emergen después de un análisis profundo. Una vez que éstos se hayan descubierto en las diferentes revisiones o en las fases posteriores del ciclo de vida, se deben corregir en el documento de requerimientos.
+
+ Identificación de Requerimientos no funcionales
+Son aquellos requerimientos que no se refieren directamente a las funciones específicas que entrega el sistema, sino a las propiedades emergentes de éste como la fiabilidad, la respuesta en el tiempo y la capacidad de almacenamiento. De forma alternativa, definen las restricciones del sistema como la capacidad de los dispositivos de entrada/salida y la representación de datos que se utiliza en la interface del sistema.
+
+Los requerimientos no funcionales surgen de la necesidad del usuario, debido a las restricciones en el presupuesto, a las políticas de la organización, a la necesidad de interoperabilidad con otros sistemas de software o hardware o a factores externos como los reglamentos de seguridad, las políticas de privacidad, entre otros.
+
+Estos diferentes tipos de requerimientos se clasifican de acuerdo con sus implicaciones.
+
+• Requerimientos del producto. Especifican el comportamiento del producto; como los requerimientos de desempeño en la rapidez de ejecución del sistema y cuánta memoria se requiere; los de fiabilidad que fijan la tasa de fallas para que el sistema sea aceptable; los de portabilidad y los de usabilidad.
+
+• Requerimientos organizacionales. Se derivan de las políticas y procedimientos existentes en la organización del cliente y en la del desarrollador: estándares en los procesos que deben utilizarse; requerimientos de implementación como los lenguajes de programación o el método de diseño a utilizar, y los requerimientos de entrega que especifican cuándo se entregará el producto y su documentación.
+
+• Requerimientos externos. Se derivan de los factores externos al sistema y de su proceso de desarrollo. Incluyen los requerimientos de interoperabilidad que definen la manera en que el sistema interactúa con los otros sistemas de la organización; los requerimientos legales que deben seguirse para asegurar que el sistema opere dentro de la ley, y los requerimientos éticos. Estos últimos son impuestos al sistema para asegurar que será aceptado por el usuario.
+
+En la práctica, la especificación cuantitativa de requerimientos es difícil. A los clientes no les es posible traducir sus metas en requerimientos cuantitativos; para algunas de éstas, como las de mantenimiento, no existen métricas que se puedan utilizar; el costo de verificar de forma objetiva los requerimientos no funcionales cuantitativos es muy alto.
+
+En principio, los requerimientos funcionales y no funcionales se diferencian en el documento de requerimientos. En la práctica, esto es difícil. Si un requerimiento no funcional se declara de forma separada a los funcionales, algunas veces es difícil ver la relación entre ellos. Si se declaran con los requerimientos funcionales, es difícil separar las condiciones funcionales y no funcionales e identificar los requerimientos que se refieren al sistema como un todo. Se debe hallar un balance apropiado que dependa del tipo de sistema a especificar. Sin embargo, los requerimientos que claramente se refieren a las propiedades emergentes del sistema se deben resaltar. Esto se hace colocándolos en una sección aparte o diferenciándolos, de alguna forma, de los otros requerimientos del sistema.
+
+Aspectos a tener en cuenta en la identificación de requerimientos funcionales y no funcionales
+Requerimientos básicos: se estructura su identificación al buscar respuestas a preguntas como:
+
+ 
+
+• ¿Cuál es el proceso básico de la empresa?
+
+• ¿Qué datos utiliza o produce este proceso?
+
+• ¿Cuáles son los límites impuestos por el tiempo y la carga de trabajo?
+
+• ¿Qué controles de desempeño utiliza?
+
+Siempre se debe comenzar con lo básico. Cuando se hacen preguntas y se reciben respuestas, se proporcionan antecedentes sobre detalles fundamentales relacionados con el sistema y que sirven para describirlo.
+
+Las siguientes preguntas son de utilidad para adquirir la comprensión necesaria:
+
+ 
+
+• ¿Cuál es la finalidad de la actividad dentro de la empresa?
+
+• ¿Qué pasos se siguen para realizarla?
+
+• ¿Dónde se realizan estos pasos?
+
+• ¿Quiénes los realizan?
+
+• ¿Cuánto tiempo tardan en efectuarlos?
+
+• ¿Con cuánta frecuencia lo hacen?
+
+• ¿Quiénes emplean la información resultante?
+
+ 
+
+  Identificación de elementos
+Durante esta, se debe identificar muy claramente los siguientes elementos:
+
+ 
+
+• Procesos
+
+• Flujos de datos entre procesos
+
+• Datos de cada flujo de datos
+
+• Bases de datos
+
+• Datos de las bases de datos
+
+ 
+
+ Preguntas generales:
+• ¿Cuántos empleados laboran para la organización en el área(s) que se pretende desarrollar el sistema; o sea, cuántos tienen relación directa con el proyecto
+
+• ¿Cuáles son las personas claves en el sistema? ¿Por qué son importantes?
+
+• ¿Existen obstáculos o influencias de tipo político que afectan la eficiencia del sistema?
+
+• ¿Existen manuales de procedimientos, políticas o lineamientos de desempeño documentados oficial o no oficialmente?. Si los hay, ¿Se cumplen en forma cabal en el 100% de las ocasiones?, es decir, ¿se respetan dichos procedimientos?
+
+• ¿Existen métodos para evadir el sistema?, ¿Por qué se presentan?
+
+• ¿Qué áreas necesitan un control específico?
+
+• ¿Qué criterios se emplean para medir y evaluar el desempeño?
